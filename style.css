@@ -1,0 +1,693 @@
+body{
+	margin: 0;
+}
+h1{
+	color: #74B5BD;
+	font-family: 'Xanh Moto';
+	font-size: 135px;
+	margin: 50px auto 0 auto;
+  text-align: center;
+}
+.pIntro{
+  color: #0f4c75;
+  font-size: 35px;
+  font-weight: 800;
+  margin-left: 7%;
+  margin-right: 6%;
+  margin-top: 9.5%;
+  margin-bottom: 0%;
+}
+.p1{
+	color: #0f4c75;
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 27px;
+	font-weight: 400;
+  margin-left: 7%;
+  margin-top: 0%;
+  margin-right: 6%;
+}
+.p2{
+  line-height: 2;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	padding: 0 15% 0 15%;
+}
+.p2-portfolio{
+  line-height: 2;
+	display: block;
+  color: #0f4c75;
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 27px;
+	font-weight: 400;
+	padding: 10% 15% 0% 15%;
+}
+h2{
+   color: #74B5BD;
+   font-family:'Xanh Moto';
+   font-size: 50px;
+}
+h3{
+  font-family: 'Baloo Chettan 2', cursive;	
+  color: #74B5BD;
+  padding: 0;
+}
+.head{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  line-height: 0;
+}
+.head2{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 0;
+}
+p{
+	line-height: 2;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	padding: 0 auto 0 auto;
+}
+.p3{
+  line-height: 1.5;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+  padding: 0 5% 0 5%;
+  color: #fff;
+}
+.projectslink{
+  color: #0f4c75;
+  font-family: 'Montserrat', sans-serif;
+}
+.projectslink:hover{
+  color: #000;
+}
+.header{
+  background-color: #1B273D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 5%;
+}
+.header-portfolio{
+  background-color: #1B273D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 5%;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+}
+ul li{
+	display: flex;
+}
+ul li a{
+	transition: all 0.3s ease 0s;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Baloo Chettan 2', cursive;
+	color: white;
+}
+ul li a.active{
+  color: white;
+  text-decoration: underline;
+}
+ul li a:hover{
+	color:#74B5BD;
+}
+.top-container {
+  width: 100%;
+  height: 700px;
+  background-color: #e1ebe8;
+  display: flex;
+}
+.myProjects{
+  font-size: 80px;
+  font-style: italic;
+  font-family: 'Baloo Chettan 2', cursive;
+  color:#0f4c75;
+  text-align: center;
+  margin-top:0%;
+  margin-bottom: 0%;
+  background-color: #e1ebe8;
+}
+.middle-container{
+	background-color: #1B273D;
+  text-align: center;
+  margin-bottom: 15.6%;
+}
+.middle-container-portfolio{
+  background-color: #e1ebe8;
+  text-align: center;
+  margin-bottom: 15.6%;
+}
+.profile{
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: 10%;
+}
+.skills {
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.skill_img{
+  width: 80px;
+  margin-top: 2%;
+  margin-bottom: 7%;
+}
+.project1{
+  width: 100%;
+  height: auto;
+  background: #31355b;
+}
+.content{
+  width: 50%;
+  margin-left: 25%;
+  padding-bottom: 30px;
+}
+.project_img{
+  width: 300px;
+  height: 300px;
+  padding: 30px 0 0 0;
+}
+.mainbtn{
+  color: #fff;
+  background: #4299ed;
+  border-radius: 30px;
+  padding: 16px 86px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  line-height: 86px;
+  font-size: 18px;
+  margin-top: 30px;
+  transition: 0.8s all;
+  margin-bottom: 40px;
+}
+.mainbtn:hover{
+  color:#fff;
+  background: #1680e6;
+}
+.btn2{
+	background: #005361;
+}
+.btn2:hover{
+	background: #00272e;
+}
+.btn3{
+	color: #8c6c07;
+  background: #fae298;
+}
+.btn3:hover{
+	background: #f8d467;
+	color: #8c6c07;
+}
+.btn4{
+  background: #2b3d51;
+}
+.btn4:hover{
+  background: #192430;
+}  
+.btn5{
+  background: #374760;
+}
+.btn5:hover{
+  background: #242f40;
+}
+.project2{
+  width: 100%;
+  height: auto;
+  background: #f8c687;
+}
+.project3{
+	width: 100%;
+  height: auto;
+	background: #21364b;
+}
+.project4{
+  width: 100%;
+  height: auto;
+  background: #7dcc93;
+}
+.project5{
+  width: 100%;
+  height: auto;
+  background: #f76160;
+}
+#midPic{
+	width: 425px;
+	height: 425px;
+  margin-left: 5%;
+  margin-top: 8%;
+  z-index: 1;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+.midlogo{
+	width: 175px;
+	height: 175px;
+	padding-top: 70px;
+}
+.midlogo-portfolio{
+	width: 250px;
+	height: 250px;
+	padding-top: 100px;
+}
+#f{
+	position: fixed;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+	background-color: #1b262c;
+	width: 100%;
+	height: 260px;
+}
+#f-portfolio{
+	position: fixed;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+	background-color: #1b262c;
+	width: 100%;
+	height: 260px;
+}
+.flogo{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 15%;
+	top: 33%;
+}
+.flogo-portfolio{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 15%;
+	top: 33%;
+}
+.link{
+	display: flex;
+	position: absolute;
+	top: 5%;
+	left: 41%;
+}
+.link-portfolio{
+	display: flex;
+	position: absolute;
+	top: 5%;
+	left: 41%;
+}
+.footer-link{
+  color: white;
+  font-family: 'Baloo Chettan 2', cursive;
+  margin: 15px 12px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.footer-link-active{
+  color: white;
+  font-family: 'Baloo Chettan 2', cursive;
+  margin: 15px 12px;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.footer-link:hover {
+  color: #74B5BD;
+}
+.footer-link-active:hover {
+  color: #74B5BD;
+}
+
+.footer-link-portfolio{
+  color: white;
+  font-family: 'Baloo Chettan 2', cursive;
+  margin: 15px 12px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.footer-link-active-portfolio{
+  color: white;
+  font-family: 'Baloo Chettan 2', cursive;
+  margin: 15px 12px;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.footer-link-portfolio:hover {
+  color: #74B5BD;
+}
+.footer-link-active-portfolio:hover {
+  color: #74B5BD;
+}
+
+/* placement of whole buttons */
+.footer-social-icons ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 49.5%;
+    transform: translate(-50%);
+}
+/* gap inbetween buttons */
+.footer-social-icons ul li{
+    margin: 0 15px;
+    /* list-style: none; */
+}
+
+/* style of buttons */
+.footer-social-icons ul li a{
+    position: relative;
+    display: block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: -5s;
+}
+/* outer glow */
+.footer-social-icons ul li a:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #11999E;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+/* also outer glow */
+.footer-social-icons ul li a:hover:before{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #11999E;
+}
+/* this controls glow for symbols inside button */
+.footer-social-icons ul li a:hover{
+    color: #11999E;
+    box-shadow: 0 0 5px #11999E;
+    text-shadow: 0 0 5px #11999E;
+}
+
+
+
+
+
+
+
+
+/* placement of whole buttons */
+.footer-social-icons-portfolio ul{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  position: absolute;
+  top: 40%;
+  left: 49.5%;
+  transform: translate(-50%);
+}
+/* gap inbetween buttons */
+.footer-social-icons-portfolio ul li{
+  margin: 0 15px;
+  /* list-style: none; */
+}
+
+/* style of buttons */
+.footer-social-icons-portfolio ul li a{
+  position: relative;
+  display: block;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #666;
+  transition: -5s;
+}
+/* outer glow */
+.footer-social-icons-portfolio ul li a:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #11999E;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+/* also outer glow */
+.footer-social-icons-portfolio ul li a:hover:before{
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #11999E;
+}
+/* this controls glow for symbols inside button */
+.footer-social-icons-portfolio ul li a:hover{
+  color: #11999E;
+  box-shadow: 0 0 5px #11999E;
+  text-shadow: 0 0 5px #11999E;
+}
+
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 25;
+  -moz-border-radius: 225;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.showcase{
+  height: auto;
+  background: #fff;
+  padding-top: 10%;
+  text-align: center;
+}
+.card-conatiner{
+  width: 60%;
+}
+.card{
+  margin: 3% 2%;
+  border: 1px solid #3282b8;
+  display: inline-block;
+  justify-content: space-between;
+}
+.card-img-top{
+  width: 100%;
+  height: 9rem;
+}
+.butn{
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: 'Baloo Chettan 2', cursive;
+  color: #0f4c75;
+  padding: 0 3%;
+}
+.butn:hover{
+  color: #000;
+}
+
+@media (max-width: 1024px){
+  .p1{
+    color: #0f4c75;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 7%;
+    margin-top: 0%;
+    margin-right: 6%;
+  }
+  .middle-container{
+    margin-bottom: 20%;
+  }
+  .middle-container-portfolio{
+    margin-bottom: 20%;
+  }
+  .footer-social-icons ul{
+    top: 60%;
+  }
+  .link{
+    top: 30%;
+    left: 36.5%;
+  }
+  .flogo{
+    left: 10%;
+    top: 50%;
+  }
+}
+
+@media (max-width: 768px){
+  h1{
+    font-size: 98px;
+  }
+  #midPic{
+    width: 300px;
+    height: 300px;
+  }
+  .p1{
+    font-size: 18px;
+  }
+  .middle-container{
+    margin-bottom: 25%;
+  }
+  .head{
+    font-size: 33px;
+  }
+  .middle-container-portfolio{
+    margin-bottom: 30%;
+  }
+  .link-portfolio{
+      top: 25%;
+      left: 33%;
+  }
+  .link{
+    top: 30%;
+    left: 33%;
+  }
+  .footer-social-icons ul{
+    top: 60%;
+  }
+  .flogo{
+    left: 10%;
+    top: 50%;
+  }
+}
+
+@media (max-width: 480px){
+  .top-container{
+    width: 750px;
+    height: 1000px;
+    flex-direction: column;
+  }
+  .header{
+    width: 700px;
+    flex-direction: column;
+    padding-top: 5%;
+  }
+  #midPic{
+    margin-left: 30%;
+  }
+  .pIntro{
+    text-align: center;
+    margin-right: 10%;
+  }
+  .p1{
+    font-size: 22px;
+  }
+  .middle-container{
+    width: 750px;
+    margin-bottom: 65%;
+    padding-bottom: 2%;
+  }
+  .flogo{
+    left: 2%;
+    top: 40%;
+    height: 150px;
+    width: 150px;
+  }
+  .flogo-portfolio{
+    left: 2%;
+    top: 50%;
+  }
+  .header-portfolio{
+    width: 528px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0%;
+  }
+  .logo{
+    padding-top: 5%;
+  }
+  h1{
+    margin: 0%;
+    text-align: center;
+  }
+  .myProjects{
+    width:528px;
+  }
+  .middle-container-portfolio{
+    width: 528px;
+    margin-bottom: 46%;
+  }
+  .head{
+    font-size: 22px;
+    text-decoration: underline;
+  }
+  #f{
+    height: 315px;
+  }
+  .footer-social-icons ul{
+    top: 60%;
+    left: 55%;
+  }
+  .footer-social-icons-portfolio ul{
+  top: 60%;
+  left: 55%;
+  }
+  .link{
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 30.5%;
+  }
+  .link-portfolio{
+    top: 30%;
+    left: 27%;
+  }
+  /* the 2 classes below are for LINKS */
+  .footer-link{
+    font-size: 30px;
+  }
+  .footer-link-active{
+    font-size: 30px;
+  }
+  .footer-link-portfolio{
+    font-size: 23px;
+  }
+  .footer-link-active-portfolio{
+    font-size: 23px;
+  }
+  .footer-social-icons ul li a{
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    line-height: 95px;
+}
+}
